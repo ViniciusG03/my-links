@@ -43,7 +43,7 @@ h1 {
 
 #follow-button {
     margin-top: 130px;
-    margin-left: 890px;
+    margin-left: 700px;
     font-family: 'Montserrat';
     color: white;
     font-weight: 600;
@@ -138,7 +138,7 @@ h1 {
     color: white;
     margin-right: 150px;
     padding-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 15px;
     width: 740px;
     height: 50px;
@@ -173,13 +173,33 @@ h1 {
     border-radius: 8px;
 }
 
+.buttons-tech3 {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 740px;
+    height: 80px;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid #4894FF;
+    border-radius: 8px;
+}
+
+.buttons-tech4 {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 740px;
+    height: 80px;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid #4894FF;
+    border-radius: 8px;
+}
+
 #button-github {
     width: 700px;
     height: 50px;
     margin-left: 10px;
     margin-top: 15px;
     background-color: rgb(20, 20, 20);
-    border: none;
+    border: 0px;
 }
 
 #title-git {
@@ -206,15 +226,115 @@ h1 {
     background-color: white;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 50px;
+    margin-left: 30px;
     border-radius: 8px;
-}
-
-.container-social {
-    margin-left: 390px;
-    height: 50vh;
 }
 
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+@media only screen and (max-device-width: 900px) {
+    body {
+        width: 100%;
+    }
+
+    .background {
+        max-width: 1260px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-device-width: 1920px) {
+    .container-social {
+        margin-left: 390px;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+    body {
+        width: 100%;
+        max-height: 100vh;
+    }
+
+    .background {
+        max-width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #avatar {
+        margin-left: 120px;
+        margin-top: 55px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+    }   
+
+    h1 {
+        margin-left: 145px;
+    }
+
+    .ajuste {
+        display: block;
+    }
+
+    #follow-button {
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .painel {
+        margin-top: 100px;
+        margin-left: 35px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .container-social {
+        margin-left: 0px;
+    }
+
+    #tech-title {
+        padding-bottom: 20px;
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 330px;
+        height: 50px;
+    }
+
+    #tech-title2 {
+        width: 330px;
+        height: 50px;
+    }
+    
+    .white {
+        width: 350px;
+        margin-left: 40px;
+    }
+
+    .white2 {
+        width: 350px;
+        margin-left: 40px;
+    }
+    
+    .buttons-tech {
+        width: 330px;
+    }
+
+    .buttons-tech2 {
+        width: 330px;
+    }
+
+    #button-github {
+        width: 300px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 15px;
+        background-color: rgb(20, 20, 20);
+        border: 0px;
+    }
 }
