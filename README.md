@@ -1,4 +1,4 @@
-<img width="960" alt="image" src="https://github.com/ViniciusG03/my-links/assets/142799171/8ba92cc0-4224-4008-a1cd-5e49de70d799">## My links!
+## My links!
 
 Nesse projeto desenvolvi uma landgin page para fazer a organização dos meus links;
 
