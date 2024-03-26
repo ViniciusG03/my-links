@@ -309,6 +309,7 @@ h1 {
     #tech-title2 {
         width: 330px;
         height: 50px;
+        margin-left: 50px;
     }
     
     .white {
@@ -327,6 +328,16 @@ h1 {
 
     .buttons-tech2 {
         width: 330px;
+    }
+
+    .buttons-tech3 {
+        width: 330px;
+        margin-left: 50px;
+    }
+
+    .buttons-tech4 {
+        width: 330px;
+        margin-left: 50px;
     }
 
     #button-github {
